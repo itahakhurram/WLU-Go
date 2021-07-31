@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'wlugo_app',
 ]
 
 MIDDLEWARE = [
@@ -76,10 +77,13 @@ WSGI_APPLICATION = 'wlugo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': BASE_DIR / 'db.mysql',
+        'NAME': 'WluGo',
+        'HOST': 'wlugo-db.cybnzrq6anqj.us-east-2.rds.amazonaws.com',
+        'PORT': '3306',
+        'USER': 'admin',
+        'PASSWORD': 'password',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
