@@ -1,0 +1,35 @@
+#footer{
+  background-color: rgba(187, 187, 236, 0.863);
+  overflow: auto;
+}
+
+#footerleft {
+  font-size: 0.7cm;
+  padding: 10px;
+  float: left;
+  text-align: left;
+  
+}
+
+#footerright {
+  font-size: 0.7cm;
+  float: left;
+  padding: 10px;
+}
+
+#footerpics{
+  float: right !important;
+}
+
+#DiscordLogo{
+  padding-top: 40px;
+  padding-right: 20px;
+}
+#InstaLogo{
+  padding-top: 40px;
+  padding-right: 10px;
+}
+
+#MailLogo{
+  padding-top: 40px;
+}

@@ -1,0 +1,23 @@
+.logo {
+    width: 15%;
+    margin-right: 95%;
+  }
+  
+  .nav-theme {
+    background-color: rgba(187, 187, 236, 0.863);
+    font-size: 19px;
+  }
+  
+  .animate-navbar {
+    animation: moveDown 0.5s ease-in-out;
+  }
+
+
+  @keyframes moveDown {
+    from {
+      transform: translateY(-5rem);
+    }
+    to {
+      transform: translateY(0rem);
+    }
+  }
